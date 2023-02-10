@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+    .container{
+        max-width: 582px;
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        gap:24px;
+        justify-content: center;
+        }
+
+        .modal-btn{
+            
+            
+            margin-top: 40px;
+}
