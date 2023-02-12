@@ -13,3 +13,46 @@
                 margin-top: 48px;
     
 }
+.tools-flex{
+    width: 264px;
+}
+.tools-flex::before{
+    content:"";
+    width: 100%;
+    height: 112px;
+    background-color: #F4F4FD;
+    display: flex;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 8px;
+}
+
+.tools-flex.icon-antenna::before{
+    background-image: url('../images/icons/tools-icons/antenna.svg');
+}
+
+.tools-flex.icon-clock::before{
+    background-image: url('../images/icons/tools-icons/clock.svg');
+}
+
+.tools-flex.icon-diagram::before{
+    background-image: url('../images/icons/tools-icons/diagram.svg');
+}
+
+.tools-flex.icon-astronaut::before{
+    background-image: url('../images/icons/tools-icons/astronaut.svg');
+}
+.tools{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.main-flex-tools .tools-flex:nth-child(3){
+    width: 267px;
+}
+.title-tools{
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.2;
+}
+}

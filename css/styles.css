@@ -414,7 +414,6 @@ gap: 16px;
     background-color: var(--primary-text-color);
     padding-top: 112px;
     padding-bottom: 112px;
-    /* height: 600px; */
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -441,17 +440,19 @@ gap: 16px;
 
 }
 .tools{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 .tools-flex{
     display: inline-block;
-    width: 264px;
+    width: 100%;
+    margin-bottom: 72px;
     }
 
 .tools-flex:nth-child(3){
     min-width: 264px;
 }
+
 
 /* .tools-link{
     width: 100%;
@@ -468,9 +469,7 @@ fill: #FFFFFF;
 }
 
 
-.main-flex-tools .tools-flex:nth-child(3){
-    width: 267px;
-}
+
 
 /* .box-tools{
    box-shadow: rgba(46, 47, 66, 0.08)
@@ -483,11 +482,12 @@ fill: #FFFFFF;
 
 .title-tools{
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     width: 100%; 
     margin-bottom: 8px;
+    text-align: center;
 
     }
 
@@ -506,33 +506,6 @@ fill: #FFFFFF;
     gap: 24px;
 }
 
-.tools-flex::before{
-    content:"";
-    width: 100%;
-    height: 112px;
-    background-color: #F4F4FD;
-    display: flex;
-    border-radius: 4px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 8px;
-}
-
-.tools-flex.icon-antenna::before{
-    background-image: url('../images/icons/tools-icons/antenna.svg');
-}
-
-.tools-flex.icon-clock::before{
-    background-image: url('../images/icons/tools-icons/clock.svg');
-}
-
-.tools-flex.icon-diagram::before{
-    background-image: url('../images/icons/tools-icons/diagram.svg');
-}
-
-.tools-flex.icon-astronaut::before{
-    background-image: url('../images/icons/tools-icons/astronaut.svg');
-}
 
 .team{
 background-color: #F4F4FD ;
@@ -625,7 +598,7 @@ height: 40px;
 }
 
 .section-description{    
-    font-size: 16px;
+    font-size: 11px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
@@ -1134,7 +1107,10 @@ color:#4D5AE5;}
     background-color: #404BBF;  
     } 
 
-
-
-
+/* 319-479  cont 0-290  */
+    @media screen and (min-width: 320px) {
+    .container {
+      max-width: 319px;
+    }
+}
   

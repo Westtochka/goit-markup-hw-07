@@ -6,13 +6,12 @@
         display: flex;
         flex-wrap: wrap;
         gap:24px;
+        row-gap: 72px;
         justify-content: center;
         }
 
-        .modal-btn{
-            
-            
-            margin-top: 40px;
+        .modal-btn{     
+                margin-top: 40px;
 }
         .hero-tittle {
     font-size: 56px;
@@ -20,6 +19,12 @@
 
 .hero-tittle{ 
     max-width: 497px;}
-
+.tools-flex{
+    width: calc((100% - 24px) / 2);
+    margin-bottom: 0px;
+}
+.title-tools{
+    text-align: left;
+}
     }
 
