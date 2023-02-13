@@ -1,10 +1,18 @@
 @media screen and (min-width: 480px) {
-    .container{
-        max-width: 426px;
+    .container-team{
+        max-width: 294px;
+}
+.container-tools{
+    max-width: 396px;}
+.container-customer{
+    width: 426px;
 }
 .customers-item{
     width: calc((100% - 16px) / 2);
     
+    }
+    .header-flex{
+        display: block;
     }
 .hero-tittle{   
         font-size: 36px;
@@ -12,6 +20,14 @@
     .hero{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg/Dark-bg-tab.jpg);
     }
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg/Dark-bg-tab-2x.jpg);
+}
+}
     .section-description{    
         font-size: 16px;
     }
