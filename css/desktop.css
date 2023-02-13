@@ -1,12 +1,12 @@
 @media screen and (min-width: 1200px) {
 .container-team{
-        width: 1158px;
+        max-width: 1158px;
 }
 .container-tools, .container{
     max-width: 1158px;}
 
 .container-max{
-    width: 1200px;
+    width: 1158px;
 }
 .container-customer{
     width: 1158px;
@@ -36,6 +36,7 @@
 .custom-list{
                 justify-content: center;
                 row-gap: 0px;
+                gap: 24px;
             }
 .modal-btn {
                 margin-top: 48px;
@@ -85,4 +86,39 @@
     font-size: 20px;
     line-height: 1.2;
 }
+.footer-media{
+    display: flex;
+    justify-content:flex-start;
+    align-items: baseline;
+
+}
+.subscribe{
+    min-width: 453px;
+    /* outline: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+
+}
+.form-subscribe{
+    display: flex;
+    gap: 24px;
+}
+.subscribe-input {
+    width: 264px;
+}
+.title-functions .list.flex{
+    flex-wrap: :nowrap;
+}
+/* .flex{
+flex-wrap: :nowrap;
+  } */
+  .dark-theme-container{
+    margin-bottom: 0;
+  }
+  .social-media{
+    margin-bottom: 0;
+  }
+  .subscribe-input{
+    margin-bottom: 0;
+  }
 }

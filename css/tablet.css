@@ -10,6 +10,7 @@
     .container-customer{
             width: 582px;
         }
+        
 .header-flex{
             display: flex;
         }
@@ -98,6 +99,29 @@ display: none;
 .customers-item{
     width: calc((100% - 48px) / 3);
 }
+.logo.dark-theme{
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: left;
+}
 
-    }
+.dark-theme-container{
+    margin-left: 0;
+    margin-right: 0;
+}
+.footer-media {
+  display: flex;
+  flex-wrap: wrap;
+}
+.subscribe {
 
+    text-align: left;
+}
+.title-media{
+    text-align: left;
+}
+.social-media{
+    margin-left: 72px;
+}
+
+}

@@ -1,5 +1,6 @@
 @media screen and (min-width: 480px) {
-    .container-team{
+    
+.container-team{
         max-width: 294px;
 }
 .container-tools{
@@ -7,11 +8,12 @@
 .container-customer{
     width: 426px;
 }
+.container
 .customers-item{
     width: calc((100% - 16px) / 2);
     
     }
-    .header-flex{
+.header-flex{
         display: block;
     }
 .hero-tittle{   
@@ -28,8 +30,10 @@
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg/Dark-bg-tab-2x.jpg);
 }
 }
-    .section-description{    
+.section-description{    
         font-size: 16px;
     }
-    
+.subscribe-input {
+        width: 398px;}
+
 }
