@@ -3,7 +3,7 @@
 .container-team{
         max-width: 294px;
 }
-.container-tools{
+.container-tools, .container-menu{
     max-width: 396px;}
 .container-customer{
     width: 426px;
@@ -35,5 +35,9 @@
     }
 .subscribe-input {
         width: 398px;}
-
+.mob-menu-tel{
+            font-size: 36px;}
+.mob-list{
+                display: flex;
+                gap: 56px;}
 }

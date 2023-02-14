@@ -2,7 +2,7 @@
     .container-team{
         max-width: 582px;
     }
-    .container-tools{
+    .container-tools, .container-menu{
         max-width: 736px;}
     .container{
             max-width: 736px;

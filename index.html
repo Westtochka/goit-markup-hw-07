@@ -29,7 +29,8 @@
                     <li class="menu-item">
                         <a class="menu-link link" href="">Contacts</a></li>
                 </ul>
-                    <button class="btn-hamburger-link" type="button"><svg class="btn-hamburger-icon" width="32" height="22">
+                    <button class="btn-hamburger-link" type="button" data-menu-open>
+                        <svg class="btn-hamburger-icon" width="32" height="22">
                         <use href="./images/icons/modal-close/symbol-defs.svg#icon-charm_menu-hamburger"></use>
                     </svg>
                     </button>
@@ -39,26 +40,28 @@
                 <li><a class="link contact-phone-number" href="tel:+110001111111">+11 (000) 111-11-11</a></li>      
             </ul>
         </div>
-        <div class="mob-menu">
-            <nav>
-                <ul class="mob-menu-list flex-nav">
-                    <li class="mob-menu-item">
-                        <a class="menu-link link current" href="./index.html">Studio</a> </li>
-                    <li class="mob-menu-item">
-                        <a class="menu-link link" href="./portfolio.html">Portfolio</a></li>
-                    <li class="mob-menu-item">
-                        <a class="menu-link link" href="">Contacts</a></li>
-                </ul>
-                <button type="button" data-modal-close class="modal-close">
+        <div class="mob-menu is-hidden" data-menu>
+            <div class="container-menu">
+        <div>
+                <button  class="mob-modal-close" data-menu-close type="button">
                     <svg class="" width="8" height="8">
                     <use href="./images/icons/modal-close/symbol-defs.svg#icon-close"></use>
-                    </svg>
-                
+                    </svg>                
             </button>
-            <ul class="list">  
-                <li><a class="link " href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>      
-            </ul>
+            <nav>
+                <ul class="mob-menu-list mob-flex-nav list ">
+                    <li class="mob-menu-item">
+                        <a class="mob-menu-link link current" href="./index.html">Studio</a> </li>
+                    <li class="mob-menu-item">
+                        <a class="mob-menu-link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="mob-menu-item">
+                        <a class="mob-menu-link link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+        </div> 
+        <div>   
+                <a class="link mob-menu-tel" href="tel:+110001111111">+11 (000) 111-11-11</a> 
+                <a class="link mob-menu-mail  " href="mailto:info@devstudio.com">info@devstudio.com</a> 
             <ul class="mob-list list">
                 <li class="mob-soc-list">
                     <a href="" class="mob-soc-link link"> 
@@ -89,10 +92,12 @@
                 </a>
                 </li>
             </ul>
-            </div>
+            
                 
-        </nav>
         
+    </div>
+    </div>
+    </div>
         </header>
     
 <main>
@@ -497,6 +502,7 @@ class="check-text"
     </div>
         </div>
 <script src="./js/modal.js"></script>
+<script src="./js/menu.js"></script>
 </body>
 </html>
 
