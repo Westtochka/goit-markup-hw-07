@@ -40,4 +40,7 @@
 .mob-list{
                 display: flex;
                 gap: 56px;}
+                .modal{
+                    width: 408px;
+                }
 }
