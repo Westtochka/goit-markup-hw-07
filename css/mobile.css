@@ -40,7 +40,11 @@
 .mob-list{
                 display: flex;
                 gap: 56px;}
-                .modal{
-                    width: 408px;
+.modal{
+        width: 408px;
                 }
+.check-text{
+        font-size: 12px;}
+        .modal-title{
+        font-size: 16px;}
 }
