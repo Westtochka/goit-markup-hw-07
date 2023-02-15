@@ -11,10 +11,13 @@
 .container
 .customers-item{
     width: calc((100% - 16px) / 2);
-    
-    }
+        }
+        .container-header{
+max-width: 428px;          
+        }        
 .header-flex{
         display: block;
+
     }
 .hero-tittle{   
         font-size: 36px;

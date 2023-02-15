@@ -89,6 +89,10 @@ display: none;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg/people-office-bg-2x.jpg);
   }
 }
+.container-header{
+    max-width: 736px;          
+            } 
+
 .tools-flex{
     width: calc((100% - 24px) / 2);
     margin-bottom: 0px;
@@ -102,7 +106,7 @@ display: none;
 
 .custom-list{
     gap:24px;}
-    
+
 .logo.dark-theme{
     padding-top: 0;
     padding-bottom: 0;
@@ -125,7 +129,7 @@ display: none;
     text-align: left;
 }
 .social-media{
-    margin-left: 72px;
+    margin-left: 24px;
 }
 
 }

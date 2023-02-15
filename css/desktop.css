@@ -11,6 +11,9 @@
 .container-customer{
     width: 1158px;
 }
+.container-header{
+    max-width: 1200px;          
+            } 
 .header-flex{
     display: flex;
     justify-content: space-between;
@@ -22,7 +25,10 @@
     .contact-phone-number {
         margin-left: 40px;
 }
-
+.hero{
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
 .flex-contact {
         display: flex;
         justify-content: flex-end;
