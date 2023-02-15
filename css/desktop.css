@@ -81,6 +81,10 @@
 .main-flex-tools .tools-flex:nth-child(3){
     width: 267px;
 }
+
+.custom-list{
+    gap:24px;}
+
 .title-tools{
     text-align: left;
     font-size: 20px;
