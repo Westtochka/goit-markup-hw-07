@@ -624,7 +624,7 @@ fill: #FFFFFF;
 
 
 .title-tools{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
@@ -661,9 +661,9 @@ padding-top: 96px;
 align-items:flex-start;
 display: flex;
 flex-wrap: wrap;
-gap: 24px;
-row-gap: 24px;
-/* row-gap: 72px; */
+/* gap: 24px; */
+/* row-gap: 24px; */
+row-gap: 72px;
 justify-content: center;
 
 }

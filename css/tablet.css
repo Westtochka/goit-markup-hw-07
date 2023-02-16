@@ -92,7 +92,10 @@ display: none;
 .container-header{
     max-width: 736px;          
             } 
-
+.main-flex-tools{
+    gap: 24px;
+    row-gap: 72px;
+            }
 .tools-flex{
     width: calc((100% - 24px) / 2);
     margin-bottom: 0px;
@@ -131,5 +134,10 @@ display: none;
 .social-media{
     margin-left: 24px;
 }
-
+.subscribe-input{
+    width: 264px;
+}
+.btn-subscribe{
+    margin-left: 24px;
+}
 }
